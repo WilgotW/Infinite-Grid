@@ -32,7 +32,6 @@ function setup(){
     for (let i = 0; i < canvas.width/40; i++) {
         for (let z = 0; z < canvas.height/40; z++){
             dots.push(new dot(i*40, z*40, 2));
-            test++;
         }
     }
 }
